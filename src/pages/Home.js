@@ -1,11 +1,15 @@
 import React from 'react'
+import RandomColors from '../components/RandomColors'
 import '../App.css'
 
 function Home() {
   return (
-    <div className="container">
-      <h1>Pixel Art 2.0</h1>
-    </div>
+    <>
+      <div className="container">
+          <h1>Pixel Art 2.0</h1>
+      </div>
+      <RandomColors />
+    </>
   )
 }
 
