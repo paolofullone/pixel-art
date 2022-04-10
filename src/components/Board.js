@@ -7,7 +7,7 @@ const Board = () => {
         for (let i = 0; i < boardSize; i++) {
             let row = [];
             for (let j = 0; j < boardSize; j++) {
-                row.push(<div className='pixel-row' key={i + j}></div>)
+                row.push(<div className="pixel-row" key={i + j}></div>)
             }
             board.push(<div className="pixel" key={i}>{row}</div>)
         }
@@ -16,7 +16,7 @@ const Board = () => {
 
 
   return (
-    <div>{makeBoard()}</div>
+    <div className="container margin-top">{makeBoard()}</div>
   )
 }
 

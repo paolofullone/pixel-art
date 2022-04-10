@@ -23,7 +23,10 @@ function RandomColors() {
           <h2>RandomColors</h2>
       </div>
   
-    {arrColors.map((color)=><p key={color} style={{backgroundColor: color}}>{color}</p>)}
+      <div className='container'>
+        {arrColors.map((color)=><div className="pixel-board container" key={color} style={{backgroundColor: color}}/>)}
+      </div>
+      
       
       </>
 
