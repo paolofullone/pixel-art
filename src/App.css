@@ -3,11 +3,6 @@
   padding: 0;
 }
 
-.container {
-display: flex;
-justify-content: center;
-align-items: center;
-}
 
 .center-page {
 width: 100vw;
@@ -17,6 +12,32 @@ justify-content: center;
 align-items: center;
 }
 
+.container {
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
 .margin-top {
   margin-top: 15px;
+}
+
+.pixel {
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+.pixel-row {
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+.pixel-board{
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  float: left;
 }

@@ -17,15 +17,12 @@ function RandomColors() {
     arrColors.push(generateColor());
   }
 
-
   return (
       <>
       <div className='container margin-top'>
           <h2>RandomColors</h2>
       </div>
   
-      <p>{generateColor()}</p>
-      
     {arrColors.map((color)=><p key={color} style={{backgroundColor: color}}>{color}</p>)}
       
       </>
