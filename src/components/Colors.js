@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css'
 
-function RandomColors() {
+function Colors() {
 
   const generateColor = () => {
     const r = Math.floor(Math.random() * 256);
@@ -12,10 +12,12 @@ function RandomColors() {
   }
 
   const arrColors = [];
-  const nColors = 5;
+  const nColors = 10;
   for (let i = 0; i < nColors; i++) {
     arrColors.push(generateColor());
   }
+
+  const basicColors = ['red', 'green', 'blue', 'yellow', 'orange', 'purple', 'pink', 'brown', 'black', 'white'];
 
   return (
       <>
@@ -24,7 +26,13 @@ function RandomColors() {
       </div>
   
       <div className='container'>
-        {arrColors.map((color)=><div className="pixel-board container" key={color} style={{backgroundColor: color}}/>)}
+        {arrColors.map((color)=><div className="color-board container margin5" key={color} style={{backgroundColor: color}}/>)}
+      </div>
+      <div className='container margin-top'>
+          <h2>Basic Colors</h2>
+      </div>
+      <div className='container'>
+        {basicColors.map((color)=><div className="color-board container margin5" key={color} style={{backgroundColor: color}}/>)}
       </div>
       
       
@@ -33,4 +41,4 @@ function RandomColors() {
   )
 }
 
-export default RandomColors
+export default Colors
