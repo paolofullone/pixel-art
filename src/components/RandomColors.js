@@ -17,8 +17,6 @@ function Colors() {
     arrColors.push(generateColor());
   }
 
-  const basicColors = ['red', 'green', 'blue', 'yellow', 'orange', 'purple', 'pink', 'brown', 'black', 'white'];
-
   return (
       <>
       <div className='container margin-top'>
@@ -26,16 +24,13 @@ function Colors() {
       </div>
   
       <div className='container'>
-        {arrColors.map((color)=><div className="color-board container margin5" key={color} style={{backgroundColor: color}}/>)}
+        {arrColors.map((color)=><div 
+          className="color-board container margin5"
+          key={color}
+          style={{ backgroundColor: color }}
+          alt={color}
+        />)}
       </div>
-      <div className='container margin-top'>
-          <h2>Basic Colors</h2>
-      </div>
-      <div className='container'>
-        {basicColors.map((color)=><div className="color-board container margin5" key={color} style={{backgroundColor: color}}/>)}
-      </div>
-      
-      
       </>
 
   )

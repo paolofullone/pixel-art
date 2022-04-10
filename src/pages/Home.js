@@ -1,7 +1,8 @@
 import React from 'react'
-import Colors from '../components/Colors'
+import RandomColors from '../components/RandomColors'
 import '../App.css'
 import PixelBoard from '../components/Board';
+import BasicColors from '../components/BasicColors';
 
 function Home() {
   return (
@@ -9,7 +10,8 @@ function Home() {
       <div className="container">
           <h1>Pixel Art 2.0</h1>
       </div>
-      <Colors />
+      <RandomColors />
+      <BasicColors/>
       <PixelBoard/>
     </>
   )
