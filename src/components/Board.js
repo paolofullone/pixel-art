@@ -4,21 +4,22 @@ import Context from '../context/Context';
 
 const Board = () => {
     const {
-    color,
+      color,
+      width,
+      height,
     } = useContext(Context);
   
-    const boardSize = 20;
     const makeBoard = () => {
         let board = [];
-        for (let i = 0; i < boardSize; i++) {
+        for (let row = 0; row < width; row++) {
             let row = [];
-            for (let j = 0; j < boardSize; j++) {
-                row.push(<div className="pixel-row" key={i + j}></div>)
+            for (let column = 0; column < height; column++) {
+                row.push(<div className="pixel-row" key={row + column}></div>)
             }
           board.push(
             <div
               className="pixel"
-              key={i}
+              key={row}
               onClick={addColor}
             >{row}</div>)
         }
