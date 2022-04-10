@@ -1,13 +1,16 @@
-import React, {useState} from 'react'
+import React, { useContext } from 'react'
+import Context from '../context/Context';
+
 import '../App.css'
 
 function BasicColors() {
-  const [color, setColor] = useState('');
-  console.log(color);
+    const {
+    setColor,
+  } = useContext(Context);
 
   const basicColors = ['red', 'green', 'blue', 'yellow', 'orange', 'purple', 'pink', 'brown', 'black', 'white'];
 
-  const pickcolor = (e) => {
+  const setBasicColor = (e) => {
     setColor(e.target.style.backgroundColor);
   }
 
@@ -21,7 +24,7 @@ function BasicColors() {
           className="color-board container margin5"
           key={color} 
           style={{ backgroundColor: color }}
-          onClick={pickcolor}
+          onClick={setBasicColor}
         />)}
       </div>
       </>
