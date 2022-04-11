@@ -56,3 +56,15 @@ input {
 .pointer {
   cursor: pointer;
 }
+
+.top {
+    position: fixed;
+    top: 0;
+    width: 90%;
+    left: 95%;
+}
+
+ a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }

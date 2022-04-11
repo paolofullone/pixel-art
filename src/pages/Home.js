@@ -22,6 +22,7 @@ function Home() {
         {boardVisible && <Board />}
         {!boardVisible && <BoardSize />}
       </div>
+      <a className="top" href="https://www.linkedin.com/in/paolofullone/" target="_blank" rel="noreferrer">Linkedin</a>
     </>
   )
 }
