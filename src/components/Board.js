@@ -42,7 +42,7 @@ const Board = () => {
          Alterar o tamanho do Board.
           </h3>
         </div>
-      <div className="container margin-top">{makeBoard()}</div>
+      <div className="container margin-top pointer">{makeBoard()}</div>
     </>
   )
 }

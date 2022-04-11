@@ -18,7 +18,7 @@ function Colors() {
   
       <div className='container'>
         {randomColors.map((color)=><div 
-          className="color-board container margin5"
+          className="color-board container margin5 pointer"
           key={color}
           style={{ backgroundColor: color }}
           alt={color}

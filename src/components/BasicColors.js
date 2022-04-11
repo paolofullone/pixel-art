@@ -21,7 +21,7 @@ function BasicColors() {
       </div>
       <div className='container'>
         {basicColors.map((color)=><div
-          className="color-board container margin5"
+          className="color-board container margin5 pointer"
           key={color} 
           style={{ backgroundColor: color }}
           onClick={setBasicColor}
