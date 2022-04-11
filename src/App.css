@@ -30,16 +30,16 @@ align-items: center;
 }
 
 .pixel {
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   float: left;
   background-color: white;
 }
 
 .pixel-row {
   background-color: white;
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   float: left;
 }
 

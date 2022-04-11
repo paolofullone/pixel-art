@@ -22,7 +22,7 @@ const BoardSize = () => {
                         type="number"
                         value={width}
                         min='2'
-                        max='100'
+                        max='200'
                         onChange={(e) => setWidth(e.target.value)}
                 />
                 </label>
@@ -34,7 +34,7 @@ const BoardSize = () => {
                         name='height'
                         value={height}
                         min='2'
-                        max='100'
+                        max='200'
                         onChange={(e) => setHeight(e.target.value)}
                         />
                 </label>
