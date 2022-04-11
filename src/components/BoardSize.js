@@ -16,7 +16,7 @@ const BoardSize = () => {
         <div className="container">
         <form>
             <div className='container margin-top'>
-                <label for="width">
+                <label htmlFor="width">
                     Largura:
                     <input
                         type="number"
@@ -27,7 +27,7 @@ const BoardSize = () => {
                 />
                 </label>
 
-                <label for='height'>
+                <label htmlFor='height'>
                     Altura
                     <input
                         type="number"
