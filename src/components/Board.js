@@ -7,6 +7,7 @@ const Board = () => {
       color,
       width,
       height,
+      setBoardVisible,
     } = useContext(Context);
   
     const makeBoard = () => {
@@ -25,13 +26,24 @@ const Board = () => {
         }
         return board;
     }
-
+  
   const addColor = (e) => {
     e.target.style.backgroundColor = color;
   }
 
   return (
-    <div className="container margin-top">{makeBoard()}</div>
+    <>
+      <div className="container">
+        <button
+          type="button"
+          className='container margin-top'
+          onClick={() => { setBoardVisible(false); }}
+        >
+          Alterar Board
+          </button>
+        </div>
+      <div className="container margin-top">{makeBoard()}</div>
+    </>
   )
 }
 

@@ -1,18 +1,27 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import RandomColors from '../components/RandomColors'
 import '../App.css'
-import PixelBoard from '../components/Board';
 import BasicColors from '../components/BasicColors';
+import BoardSize from '../components/BoardSize';
+import Context from '../context/Context';
+import Board from '../components/Board';
 
 function Home() {
+      const {
+      boardVisible,
+      } = useContext(Context);
+  
   return (
     <>
       <div className="container">
           <h1>Pixel Art 2.0</h1>
       </div>
-      <RandomColors />
-      <BasicColors/>
-      <PixelBoard/>
+      <div>
+        <RandomColors />
+        <BasicColors/>
+        {boardVisible && <Board />}
+        {!boardVisible && <BoardSize />}
+      </div>
     </>
   )
 }

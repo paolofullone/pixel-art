@@ -3,8 +3,9 @@ import Context from './Context';
 
 const Provider = ({ children }) => {
   const [color, setColor] = React.useState('');
-  const [width, setWidth] = React.useState(20);
-  const [height, setHeight] = React.useState(20);
+  const [width, setWidth] = React.useState(15);
+  const [height, setHeight] = React.useState(15);
+  const [boardVisible, setBoardVisible] = React.useState(false);
     
     const context = {
       color,
@@ -13,6 +14,8 @@ const Provider = ({ children }) => {
       setHeight,
       width,
       setWidth,
+      boardVisible,
+      setBoardVisible,
     }
 
   return (
