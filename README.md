@@ -1,70 +1,62 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Projeto Pixel Art 2.0
 
-## Available Scripts
+Projeto baseado no Pixel Art criado na Trybe no módulo de fundamentos. Após a conclusão do 
+módulo de FrontEnd, decidi revisitar este projeto e criar uma nova versão do Pixel Art, desta vez 
+usando #React e #ContextAPI ao invés de Vanilla JavaScript como da primeira vez.
 
-In the project directory, you can run:
 
-### `npm start`
+## Referência
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ - [Trybe](https://www.betrybe.com/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Autores
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [@paolofullone](https://www.github.com/paolofullone)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Link de Acesso
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+https://pixel-art-flax.vercel.app/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Funcionalidades
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Tamanho do Board de 2 a 100 pixels;
+- Cores randômicas;
+- Cores básicas;
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Feedback
 
-### Code Splitting
+Se você tiver algum feedback, por favor nos deixe saber por meio de paolo.enrico@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## 🚀 Sobre mim
+Eu sou uma pessoa desenvolvedora estudante da Trybe, atualmente (Abril/2022) estudando BackEnd.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Licença
 
-### Advanced Configuration
+[MIT](https://choosealicense.com/licenses/mit/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Stack utilizada
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**Front-end:** React, ContextAPI, TailwindCSS
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+## Aprendizados
+
+Este projeto embora super simples foi muito interessante, pois não havia um readme e 
+as funcionalidades foram definidas por uma cliente bem exigente (minha filha).
+Inclusive caso você tenha uma criança em casa, peça aquele feedback mega-sincero e me envie?
