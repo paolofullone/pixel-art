@@ -16,16 +16,28 @@ const BoardSize = () => {
         <div className="container">
         <form>
             <div className='container margin-top'>
-                <input
-                    type="number"
-                    value={width}
-                    onChange={(e) => setWidth(e.target.value)}
+                <label for="width">
+                    Largura:
+                    <input
+                        type="number"
+                        value={width}
+                        min='2'
+                        max='100'
+                        onChange={(e) => setWidth(e.target.value)}
                 />
-                <input
-                    type="number"
-                    value={height}
-                    onChange={(e) => setHeight(e.target.value)}
+                </label>
+
+                <label for='height'>
+                    Altura
+                    <input
+                        type="number"
+                        name='height'
+                        value={height}
+                        min='2'
+                        max='100'
+                        onChange={(e) => setHeight(e.target.value)}
                         />
+                </label>
                     </div>
                     <div className='container margin-top'>
                 <button
