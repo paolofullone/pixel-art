@@ -6,6 +6,13 @@ const Provider = ({ children }) => {
   const [width, setWidth] = React.useState(15);
   const [height, setHeight] = React.useState(15);
   const [boardVisible, setBoardVisible] = React.useState(false);
+
+  const setInitialBoard = () => {
+    const INITIAL = 15;
+    setHeight(INITIAL);
+    setWidth(INITIAL);
+    setBoardVisible(false);
+  }
     
     const context = {
       color,
@@ -16,6 +23,7 @@ const Provider = ({ children }) => {
       setWidth,
       boardVisible,
       setBoardVisible,
+      setInitialBoard,
     }
 
   return (

@@ -8,12 +8,12 @@ function Colors() {
     setColor,
   } = useContext(Context);
 
-const randomColors = [...arrColors]
-
+  const randomColors = [...arrColors]
+  
   return (
       <>
       <div className='container margin-top'>
-          <h2>RandomColors</h2>
+          <h2>Cores Aleatórias:</h2>
       </div>
   
       <div className='container'>

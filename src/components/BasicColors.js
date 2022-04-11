@@ -17,7 +17,7 @@ function BasicColors() {
   return (
       <>
       <div className='container margin-top'>
-          <h2>Basic Colors</h2>
+          <h2>Cores Básicas:</h2>
       </div>
       <div className='container'>
         {basicColors.map((color)=><div

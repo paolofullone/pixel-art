@@ -7,7 +7,7 @@ const Board = () => {
       color,
       width,
       height,
-      setBoardVisible,
+      setInitialBoard,
     } = useContext(Context);
   
     const makeBoard = () => {
@@ -34,13 +34,13 @@ const Board = () => {
   return (
     <>
       <div className="container">
-        <button
+        <h3
           type="button"
-          className='container margin-top'
-          onClick={() => { setBoardVisible(false); }}
+          className='container margin-top pointer'
+          onClick={setInitialBoard}
         >
-          Alterar Board
-          </button>
+         Alterar o tamanho do Board.
+          </h3>
         </div>
       <div className="container margin-top">{makeBoard()}</div>
     </>
