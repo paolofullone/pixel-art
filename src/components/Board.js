@@ -40,8 +40,9 @@ const Board = () => {
           onClick={setInitialBoard}
         >
          Alterar o tamanho do Board.
-          </h3>
+        </h3>
         </div>
+        {color && (<div className='container'>Cor selectionada: {color}</div>)}
       <div className="container margin-top pointer">{makeBoard()}</div>
     </>
   )
