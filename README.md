@@ -21,16 +21,11 @@ usando #React e #ContextAPI ao invés de Vanilla JavaScript como da primeira vez
 https://pixel-art-flax.vercel.app/
 
 
-
-
 ## Funcionalidades
 
-- Tamanho do Board de 2 a 100 pixels;
+- Tamanho do Board de 2 a 200 ("quadradinhos");
 - Cores randômicas;
 - Cores básicas;
-
-
-
 
 ## Feedback
 
@@ -39,7 +34,6 @@ Se você tiver algum feedback, por favor nos deixe saber por meio de paolo.enric
 
 ## 🚀 Sobre mim
 Eu sou uma pessoa desenvolvedora estudante da Trybe, atualmente (Abril/2022) estudando BackEnd.
-
 
 
 ## Licença
@@ -52,11 +46,12 @@ Eu sou uma pessoa desenvolvedora estudante da Trybe, atualmente (Abril/2022) est
 **Front-end:** React, ContextAPI, TailwindCSS
 
 
-
-
-
 ## Aprendizados
 
 Este projeto embora super simples foi muito interessante, pois não havia um readme e 
 as funcionalidades foram definidas por uma cliente bem exigente (minha filha).
 Inclusive caso você tenha uma criança em casa, peça aquele feedback mega-sincero e me envie?
+
+## Post de Divulgação no Linkedin
+
+https://www.linkedin.com/posts/paolofullone_frontend-backend-javascript-activity-6919292113545293825-RaPZ?utm_source=linkedin_share&utm_medium=member_desktop_web
