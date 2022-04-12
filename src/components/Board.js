@@ -42,7 +42,7 @@ const Board = () => {
          Alterar o tamanho do Board.
         </h3>
         </div>
-        {color && (<div className='container'>Cor selectionada: {color}</div>)}
+        {color && (<div style={{color: `${color}`}} className='container'>Cor selectionada: {color}</div>)}
       <div className="container margin-top pointer">{makeBoard()}</div>
     </>
   )
