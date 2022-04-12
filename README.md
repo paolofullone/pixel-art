@@ -5,6 +5,10 @@ Projeto baseado no Pixel Art criado na Trybe no módulo de fundamentos. Após a 
 módulo de FrontEnd, decidi revisitar este projeto e criar uma nova versão do Pixel Art, desta vez 
 usando #React e #ContextAPI ao invés de Vanilla JavaScript como da primeira vez.
 
+O link de acesso abaixo nos leva a uma página com 10 opções de cores aleatórias e 10 cores básicas
+que nunca mudam. Após escolher o tamanho do board que varia de 2 a 200 para altura e largura podemos
+realizar os desenhos a vontade.
+
 
 ## Referência
 
